@@ -39,7 +39,7 @@ int main(int argc, const char * argv[])
             NSString *pizzaSize = [NSString stringWithString:[commandWords objectAtIndex:0]];
             char sizeChar = [[pizzaSize lowercaseString] characterAtIndex:0];
             NSArray *toppings = [commandWords subarrayWithRange: NSMakeRange(1, [commandWords count]-1)];
-            [restaurantKitchen makePizzaWithCharSize:sizeChar toppings:toppings];
+            [restaurantKitchen makePizzaWithSizeChar:sizeChar toppings:toppings];
         }
 
     }

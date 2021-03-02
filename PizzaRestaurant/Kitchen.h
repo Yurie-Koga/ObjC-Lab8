@@ -11,6 +11,6 @@
 
 @interface Kitchen : NSObject
 
-- (Pizza *)makePizzaWithCharSize:(enum PizzaSizeChar)size toppings:(NSArray *)toppings;
+- (Pizza *)makePizzaWithSizeChar:(enum PizzaSizeChar)size toppings:(NSArray *)toppings;
 
 @end
